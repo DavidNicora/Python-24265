@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        
+        <h1>Ejemplo de formulario de contacto</h1>
+        
+    </header>
+    <main>
+        <form action="respuesta.html">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombre">Nombres</label>
+                <input name="nombre" type="text"><br>
+                <label for="apellido">Apellido</label>
+                <input name="apellido" type="text"><br>
+                <label for="correo">Correo electrónico</label>
+                <input name="correo" type="email"><br>
+                <label for="ncliente">N° de cliente</label><input name="ncliente" type="text">
+            </fieldset>
+            <fieldset>
+                <legend>Sobre la cursada</legend>
+                <p>Lenguajes de interés</p>
+                <input name="opcion1" type="checkbox">
+                <label for="opcion1">Python</label>
+                <input name="opcion2" type="checkbox">
+                <label for="opcion2">C++</label>
+                <input name="opcion3" type="checkbox">
+                <label for="opcion3">PHP</label>
+                <br>
+                <p>Turno</p>
+                <select name="">
+                    <option value="valor1">Mañana</option>
+                    <option value="valor2">Tarde</option>
+                    <option value="valor3">Noche</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Acciones del formulario</legend>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </fieldset>
+            <br><br>
+            <div>
+                <a href="index.html">Volver al Inicio</a>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
